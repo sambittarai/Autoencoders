@@ -1,7 +1,15 @@
 # Autoencoders
 Reconstruction of Images using Autoencoders
 
-**Autoencoder Architecture**
-![](Autoencoder.png)
+**Original Mnist Images**
+![](i1.png)
 
-**Original
+**Reconstructed Mnist Images**
+![](i2.png)
+
+
+
+**Latent Space of the mnist digits**
+
+
+![](latent_space.png)
