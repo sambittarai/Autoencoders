@@ -66,3 +66,11 @@ for i in range(n):
     ax.get_xaxis().set_visible(False)
     ax.get_yaxis().set_visible(False)
 plt.show()
+
+
+#plot latent space  clustering
+x_encoded = encoder.predict(x_test, batch_size=batch_size)
+plt.figure(figsize=(10, 10))
+plt.scatter(x_encoded[:, 0], x_encoded[:, 1], c=y_test, cmap='brg')
+plt.colorbar()
+plt.show()
